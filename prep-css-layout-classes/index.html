@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding: 0 8px 0 8px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Complete the HTML here -->
+
+  <div class="container">
+    <h1>Indiana Jones</h1>
+    <div class="row">
+      <div class="column">
+        <img src="images/raiders.jpg" alt="Raiders of the Lost Ark">
+        <h3>Raiders of the Lost Ark</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eligendi neque nostrum vero provident
+          dignissimos amet ipsam ducimus delectus mollitia, voluptate necessitatibus commodi nisi enim distinctio totam
+          nulla aliquid maiores, modi accusamus ratione dolorem? Quaerat nesciunt, molestiae, illo quod, vel
+          perspiciatis ad excepturi nemo commodi dolorum in at perferendis!</p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg" alt="Temple of Doom">
+        <h3>Temple of Doom</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat distinctio molestias perspiciatis eveniet
+          fuga! Consequatur culpa soluta quia voluptatum ut numquam ex doloremque enim doloribus fugit? Cum
+          reprehenderit et impedit esse corporis omnis ea excepturi, cumque atque officia debitis dolore.</p>
+      </div>
+      <div class="column">
+        <img src="images/crusade.jpg" alt="The Last Crusade">
+        <h3>The Last Crusade</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur iusto suscipit, exercitationem libero,
+          fuga harum recusandae nobis eligendi repellendus maxime repellat, odit magnam minima laudantium dolor pariatur
+          animi doloremque quas? Delectus adipisci eos ipsam id est eius nisi mollitia a incidunt accusantium
+          repudiandae, quasi quidem aliquam libero recusandae deserunt necessitatibus nobis reiciendis odio totam harum.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
